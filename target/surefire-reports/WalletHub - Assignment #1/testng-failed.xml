@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [WalletHub - Assignment #1]">
+  <listeners>
+    <listener class-name="com.listners.ListenerTestNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Wallethub - Write review(failed)">
+    <classes>
+      <class name="com.walletHubReviewsTestCase.WriteReviewTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="pageFactoryInitialization"/>
+          <include name="writeReview" invocation-numbers="0"/>
+          <include name="loginUser"/>
+          <include name="afterTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.walletHubReviewsTestCase.WriteReviewTest -->
+    </classes>
+  </test> <!-- Wallethub - Write review(failed) -->
+</suite> <!-- Failed suite [WalletHub - Assignment #1] -->
